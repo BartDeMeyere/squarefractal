@@ -90,7 +90,7 @@ function RenderFractal(){
 
     }else{
 
-        $(".output").html("fractal generated")
+        $(".output").html("Fractal generated")
         $(".controls button").prop("disabled" , false)
         cancelAnimationFrame(frameId)
         return
